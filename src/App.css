@@ -1,0 +1,94 @@
+
+ul.menu-bar{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+  margin-top:1rem;
+  background-color: #fff;
+  width: 1400px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.text-logo{
+  margin:1.5rem;
+}
+
+li{
+  font-size: large;
+  border-radius: 10px;
+  color:#333;
+  background-color: #fef0df;
+  padding: 0.1rem 1rem;
+  width: 150px;
+  text-align: center;
+}
+
+li.active{
+  background-color: #f4a202;
+  color:#fff;
+}
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  align-items: center;
+  justify-content:center;
+  background-color: #f5f5f5;
+
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-list{
+  display: grid;
+  width: 100%;
+  grid-template-columns:1fr 1fr;
+  margin-top:1rem;
+}
+
+.inline-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  margin-bottom: 1rem;
+  padding-bottom:1rem;
+  margin-top: 0.5rem;
+}
+.menu-detail{
+  padding: 0 0.5rem ;
+  background-color: #fff;
+  width: 400px;
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: column;
+}
+.card-menu{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  padding: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin:1rem;
+  background-color: #fff;
+}
+.card-menu img{
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  background-color: antiquewhite;
+  border-radius: 30px;
+}
+
+.menu-detail p{
+  font-size: small;
+}
